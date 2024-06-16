@@ -26,7 +26,6 @@ When you run the `sezer` command, the following information will be displayed:
 - **City:** Ankara
 - **Skills:** JavaScript, Node.js, React, CSS, TypeScript
 - **Description:** Hi, I'm Sezer Tetik. I'm a software developer with experience in various web technologies. Currently, I'm living in Ankara and I love developing new projects.
-- **Twitter:** [@sezer](https://twitter.com/sezer)
 - **Website:** [sezertetik.dev](https://sezertetik.dev)
 - **GitHub:** [sezRR](https://github.com/sezRR)
 
