@@ -1,8 +1,11 @@
 {
-  "name": "nodejs-typescript-template",
+  "name": "sezer",
   "version": "1.0.0",
-  "description": "",
-  "main": "./dist/index.js",
+  "description": "About github.com/sezRR",
+  "main": "dist/index.js",
+  "bin": {
+    "sezer": "./dist/bin.js"
+  },
   "exports": "./dist/index.js",
   "type": "module",
   "scripts": {
@@ -13,7 +16,7 @@
   },
   "keywords": [],
   "author": "sezRR",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.4.7",
     "nodemon": "^3.0.1",
