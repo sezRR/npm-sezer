@@ -1,7 +1,7 @@
 {
   "name": "sezer",
-  "version": "1.0.0",
-  "description": "About github.com/sezRR",
+  "version": "1.0.1",
+  "description": "Self-Introducing NPM Package for Sezer Tetik",
   "main": "dist/index.js",
   "bin": {
     "sezer": "./dist/bin.js"

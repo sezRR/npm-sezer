@@ -1,76 +1,69 @@
-# Node.js with TypeScript Template
+# Sezer - Self-Introducing NPM Package
 
-This repository serves as a template for setting up a Node.js project with TypeScript. It includes configuration files for `tsconfig.json`, `package.json`, and `nodemon.json` to help users get started quickly.
+This package contains information about Sezer Tetik and displays it when run from the command line.
 
-## Getting Started
+## Installation
 
-### Prerequisites
+Install the package globally:
 
-Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+```bash
+npm install -g sezer
+```
 
-### Installation
+## Usage
+
+Run the `sezer` command in the terminal to access information about Sezer:
+
+```bash
+sezer
+```
+
+## Information
+
+When you run the `sezer` command, the following information will be displayed:
+
+- **Name:** Sezer Tetik
+- **City:** Ankara
+- **Skills:** JavaScript, Node.js, React, CSS, TypeScript
+- **Description:** Hi, I'm Sezer Tetik. I'm a software developer with experience in various web technologies. Currently, I'm living in Ankara and I love developing new projects.
+- **Twitter:** [@sezer](https://twitter.com/sezer)
+- **Website:** [sezertetik.dev](https://sezertetik.dev)
+- **GitHub:** [sezRR](https://github.com/sezRR)
+
+## Development
+
+This project was created using the `nodejs-typescript-template`. Follow these steps to set up the development environment:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/nodejs-typescript-template.git
+   git clone https://github.com/sezRR/npm-sezer
+   cd npm-sezer
    ```
 
-2. Navigate to the project directory:
-  
-   ```bash
-   cd nodejs-typescript-template
-   ```
-
-3. Install dependencies:
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-## Usage
-
-### Development
-
-To run the project in development mode with automatic code reloading, use:
-
-   ```bash
-   npm run dev
-   ```
-
-This command uses [nodemon](https://nodemon.io/) to watch for changes in the `src/` directory and restarts the server accordingly.
-
-### Build
-
-To build the TypeScript source code, use:
+3. Compile TypeScript files:
 
    ```bash
    npm run build
    ```
 
-This command compiles TypeScript files from the `src/` directory to the `dist/` directory.
-
-### Production
-
-To run the built application in production, use:
+4. Link the package globally:
 
    ```bash
-   npm run prod
+   npm link
    ```
 
-This command executes the compiled `index.js` file from the `dist/` directory.
+5. Test the `sezer` command:
+   ```bash
+   sezer
+   ```
 
-## Project Structure
+## License
 
-- `src/`: Contains the source code of the application.
-    
-    - `index.ts`: Main entry point of the application.
-    - `helloWorld.ts`: Example module demonstrating TypeScript functionality.
-- `dist/`: Output directory where the compiled JavaScript files are stored.
-    
-
-## Configuration Files
-
-- `tsconfig.json`: TypeScript compiler configuration.
-- `package.json`: Project metadata and script definitions.
-- `nodemon.json`: Nodemon configuration for development.
+This project is licensed under the MIT License.
